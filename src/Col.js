@@ -38,6 +38,14 @@ const Col = React.createClass({
      */
     lg: React.PropTypes.number,
     /**
+     * The number of columns you wish to span
+     *
+     * for Extra Large devices Desktops (≥1200px)
+     *
+     * class-prefix `col-xl-`
+     */
+    xl: React.PropTypes.number,
+    /**
      * Hide column
      *
      * on Extra small devices Phones
@@ -69,6 +77,14 @@ const Col = React.createClass({
      * adds class `hidden-lg`
      */
     lgHidden: React.PropTypes.bool,
+    /**
+     * Hide column
+     *
+     * on Extra Large devices Desktops
+     *
+     * adds class `hidden-xl`
+     */
+    xlHidden: React.PropTypes.bool,
     /**
      * Move columns to the right
      *
@@ -102,6 +118,14 @@ const Col = React.createClass({
      */
     lgOffset: React.PropTypes.number,
     /**
+     * Move columns to the right
+     *
+     * for Extra Large devices Desktops
+     *
+     * class-prefix `col-xl-offset-`
+     */
+    xlOffset: React.PropTypes.number,
+    /**
      * Change the order of grid columns to the right
      *
      * for Extra small devices Phones
@@ -134,6 +158,14 @@ const Col = React.createClass({
      */
     lgPush: React.PropTypes.number,
     /**
+     * Change the order of grid columns to the right
+     *
+     * for Extra Large devices Desktops
+     *
+     * class-prefix `col-xl-push-`
+     */
+    xlPush: React.PropTypes.number,
+    /**
      * Change the order of grid columns to the left
      *
      * for Extra small devices Phones
@@ -165,6 +197,14 @@ const Col = React.createClass({
      * class-prefix `col-lg-pull-`
      */
     lgPull: React.PropTypes.number,
+    /**
+     * Change the order of grid columns to the left
+     *
+     * for Large devices Desktops
+     *
+     * class-prefix `col-xl-pull-`
+     */
+    xlPull: React.PropTypes.number,
     /**
      * You can use a custom element for this component
      */

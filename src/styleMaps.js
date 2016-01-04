@@ -11,10 +11,12 @@ let constant = obj => {
 const styleMaps = {
 
   SIZES: {
+    'xlarge': 'xl',
     'large': 'lg',
     'medium': 'md',
     'small': 'sm',
     'xsmall': 'xs',
+    'xl': 'xl',
     'lg': 'lg',
     'md': 'md',
     'sm': 'sm',
@@ -24,6 +26,7 @@ const styleMaps = {
 };
 
 export const Sizes = constant({
+  XLARGE: 'xlarge',
   LARGE: 'large',
   MEDIUM: 'medium',
   SMALL: 'small',
